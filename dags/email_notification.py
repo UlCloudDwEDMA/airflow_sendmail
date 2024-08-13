@@ -14,7 +14,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='rb_email_test_failure',
+    dag_id='rb_dag_failure_notification_v01',
     default_args=default_args,
     schedule_interval='@daily',
     catchup=False,
