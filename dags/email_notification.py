@@ -9,7 +9,7 @@ default_args = {
     'retry_delay' : timedelta(seconds=5),
     'email': ['ramesh.babuv@ul.com'], 
     'email_on_failure': True,
-    'email_on_retry': False,
+    'email_on_retry': True,
     'retries': 1
 }
 
